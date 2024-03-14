@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.brd{
+    border: 1px solid black;
+}
+
+.container{
+    margin-top: 50px;
+    width: 300px;
+    height: 639px;
+}
+
+.row{
+    display: flex;
+    height: 6%;
+    width: 98%;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+       
+}
+.dia{
+    display: flex;
+    height: 98%;
+    width: 10%;
+    flex-direction: column;
+}
+
+.diaText{
+    color: black;
+    font-size: 8px;
+}
+
+.diaNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(37, 83, 184);
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.actv{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 89%;
+    height: 50%;
+    background-color: rgb(93, 154, 235);
+    border-radius: 3px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
