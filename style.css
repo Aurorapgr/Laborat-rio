@@ -6,23 +6,11 @@
 body{
     height: 1500px;
 }
-
-#btn{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.container{
-    margin-top: 50px;
-    height: 400px;
-    width: 600px;
-    border: 1px solid black;
-}
-
-.test{
-    margin-top: 1px;
-    height: 20px;
-    width: 98%;
-    border: 1px solid black;
+.button{
+    height: 40px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    text-transform: uppercase;
 }
