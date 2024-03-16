@@ -14,3 +14,34 @@ body{
     background-color: #ccc;
     text-transform: uppercase;
 }
+.button--big{
+    height: 50px;
+    width: 180px;
+    background-color: #000;
+}
+
+.button:hover{
+    background-color: #b0b0b0;
+    cursor: pointer;
+}
+.button--success{
+    background-color: #16a716;
+    color: #fff;
+}
+.button--success:hover{
+    background-color: #128112;
+}
+.button--warning{
+    background-color:#ffff19;
+    color: #000;
+}
+.button--warning:hover{
+    background-color: #efef09;
+}
+.button--error{
+    background-color: #ff3434;
+    color: #fff;
+}
+.button--error:hover{
+    background-color: #e30c0c;
+}
